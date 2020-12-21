@@ -35,10 +35,10 @@ def decrypt(text, s):
 
 
 # check the above function
-text = "Hello"
-s = 7
+text = input("Enter the message \n")
+s =int(input("Enter the value \n"))
 text2 = encrypt(text, s)
 print("Text  : " + text)
 print("Key : " + str(s))
-print("Encrypt Hello Text : " + encrypt(text, s))
-print("Decrypt Hello Text : " + decrypt(text2, s))
+print("Encrypted  Text : " + encrypt(text, s))
+print("Decrypted  Text : " + decrypt(text2, s))
