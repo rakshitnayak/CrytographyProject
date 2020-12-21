@@ -36,7 +36,7 @@ def decrypt(text, s):
 
 # check the above function
 text = "Hello"
-s = 7
+s = 5
 text2 = encrypt(text, s)
 print("Text  : " + text)
 print("Key : " + str(s))
